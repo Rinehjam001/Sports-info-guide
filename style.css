@@ -1,3 +1,13 @@
-.leftscroll1{
+/*.leftscroll1{
     background-color: blue;
+}*/
+.linklist {
+    display: inline-block;
+}
+.linklist a::after {
+    display: inline-block;
+    content: ">";
+    color: black;
+    font-weight: bold;
+    padding: 0 3px;
 }
