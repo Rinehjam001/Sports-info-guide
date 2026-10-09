@@ -4,10 +4,42 @@
 .linklist {
     display: inline-block;
 }
+body{
+    margin: 0px;
+}
 .linklist a::after {
     display: inline-block;
     content: ">";
     color: black;
     font-weight: bold;
     padding: 0 3px;
+}
+.termlist p, .termlist h4{
+    display: inline;
+}
+.overviewformat table{
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+}
+.overviewformat tr{
+    display: inline;
+    margin: 0px;
+}
+.overviewformat td{
+    max-width: 50%;
+    height: fit-content;
+}
+.overviewformat img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.overviewformat p{
+    margin: 0px;
+}
+.overviewformat{
+    max-height: 500px;
+    margin: 10px;
 }
